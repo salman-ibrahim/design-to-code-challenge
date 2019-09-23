@@ -1,0 +1,47 @@
+body	{
+
+	margin: 0px;
+}
+
+main {
+
+
+}
+
+h2 {
+
+	color: black;
+}
+
+.nav {
+
+	height: 70px;
+	width: 100%;
+	background-color: #d8f2f0;
+}
+
+.logo {
+
+	font-size:;
+	float: left;
+	margin-left: 40px;
+	color: black;
+}
+
+.nav-items	{
+	list-style: none;
+	font-size: 20px;
+	float: right;
+	margin-right: 40px;
+}
+
+.nav-items > li {
+
+	float: left;
+	padding-left: 25px;
+}
+
+a {
+
+	text-decoration: none;
+}
