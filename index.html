@@ -7,9 +7,18 @@
 
 	<!-- CSS Style Files -->
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+	<!-- font family from google -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+	<!-- This page is dveloped by Salman Malik during the Web development course on Thinkful
+		visit eggheads.tech for more information about me -->
 </head>
 
+<!-- Body Starts Here -->
 <body>
+
+	<!-- Main starts here it contains nav bar -->
 	<main>
 		<div class="nav">
 			<nav>
@@ -24,5 +33,61 @@
 			</nav>
 		</div>
 	</main>
+
+	<!-- main end here -->
+
+	<!-- this parent div is used to keep elements on page to maintain starting the position -->
+	<div class="parent">
+
+	<!-- This section is for Search field-->
+		<section class="section-search">
+			<div class="search-bar">
+
+				<form class="search">
+					<input type="search" name="search" class="search-field" placeholder="Search Desired Jobs">
+					<input type="image" name="imgbtn" src="icons/magnifying-glass.png" class="button">
+				</form>
+			
+			</div>
+		</section>
+	<!--Search Section Ends here -->
+
+	<!-- Results counter start here -->
+		<section class="section-counter">
+			<div class="counter-container">
+				<div class="prev"><a href="#">&lt prev</a></div>
+				<div class="current">1 to 100 of 160</div>
+				<div class="next"><a href="#">next &gt</a></div>
+			</div>
+		</section>
+	<!-- Result Counter section ends here-->
+
+	<!-- Results Section starts here -->
+	<section class="section-results">
+		<div class="search-results">
+			<div class="found-result">
+				<h2 class="result-title"><span class="date">September 22</span><a href="#">Senior Software Engineer</a><span class="place">   Careem</span></h2>
+			</div>
+
+			<div class="found-result">
+				<h2 class="result-title"><span class="date">September 23</span><a href="#"> Python Developer</a><span class="place">Soft Acon Pakistan</span></h2>
+			</div>
+
+			<div class="found-result">
+				<h2 class="result-title"><span class="date">September 24</span><a href="#">iOS Developer</a><span class="place">Nextbridge</span></h2>
+			</div>
+
+		</div>
+	</section>
+	<!-- Results Section ends here -->
+	</div>
+
+	<section class="footer">
+		<footer>
+			<h4>Developed by Salman Malik</h4>
+			<h4>Founder <a target="_blank" href="http://www.eggheads.tech"> Eggheads</a></h4>
+		</footer>
+	</section>
+
 </body>
 </html>
